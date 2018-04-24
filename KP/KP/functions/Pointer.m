@@ -43,7 +43,7 @@
     
     ClassA *obj = nil;
     [self objFun:&obj];
-    NSLog(@"%@",obj);
+    NSLog(@"%@",obj); //123
 }
 
 + (void)fun1:(int *)p
